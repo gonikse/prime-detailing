@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="PRIME Detailing — pielęgnacja samochodów, detailing wnętrza, polerowanie i powłoki ochronne. Przykładowa strona demonstracyjna.">
+  <title>PRIME Detailing — Perfekcja w każdym detalu</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner wrap">
+      <a class="brand" href="#home" aria-label="PRIME Detailing — strona główna">
+        <span class="brand-mark" aria-hidden="true">P<span class="brand-streak"></span></span>
+        <span class="brand-type"><strong>PRIME</strong><small>DETAILING</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Menu główne">
+        <a class="nav-link is-active" href="#home">START</a>
+        <a class="nav-link" href="#services">USŁUGI</a>
+        <a class="nav-link" href="#packages">PAKIETY</a>
+        <a class="nav-link" href="#gallery">GALERIA</a>
+        <a class="nav-link" href="#about">O NAS</a>
+        <a class="nav-link" href="#contact">KONTAKT</a>
+      </nav>
+      <a class="header-book" href="#contact">UMÓW WIZYTĘ <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Otwórz menu" aria-controls="main-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-picture" aria-hidden="true">
+        <img src="assets/hero.jpg" alt="" fetchpriority="high">
+      </div>
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> PONADPRZECIĘTNA PIELĘGNACJA AUT</p>
+          <h1 id="hero-title">PERFEKCJA<span>W KAŻDYM</span><em>DETALU.</em></h1>
+          <p class="hero-description">Twój samochód zasługuje na coś więcej niż zwykłe mycie. Przywracamy blask, dbamy o szczegóły i tworzymy efekt, który przyciąga spojrzenia.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#packages">POZNAJ PAKIETY <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#gallery">ZOBACZ EFEKTY <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-rating" aria-label="Indywidualna pielęgnacja i profesjonalny efekt">
+            <span class="rating-stars" aria-hidden="true">✦ ✦ ✦</span>
+            <span>INDYWIDUALNE PODEJŚCIE. WYJĄTKOWY EFEKT.</span>
+          </div>
+        </div>
+        <aside class="hero-stats" aria-label="Najważniejsze informacje o stronie">
+          <div class="hero-stat"><span class="stat-icon" aria-hidden="true">✧</span><strong>04</strong><small>OBSZARY USŁUG</small></div>
+          <div class="hero-stat"><span class="stat-icon" aria-hidden="true">◇</span><strong>03</strong><small>PAKIETY DO WYBORU</small></div>
+          <div class="hero-stat"><span class="stat-icon" aria-hidden="true">✳</span><strong>01</strong><small>CEL: PERFEKCJA</small></div>
+        </aside>
+      </div>
+      <div class="social-rail" aria-label="Portale społecznościowe — przykładowe linki">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (link do podmiany)">ig</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (link do podmiany)">f</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok (link do podmiany)">♪</a>
+        <span>FOLLOW US <i></i></span>
+      </div>
+      <a class="hero-scroll" href="#services"><span class="hero-scroll-line"></span> ODKRYJ WIĘCEJ <span aria-hidden="true">↓</span></a>
+      <span class="hero-coordinate" aria-hidden="true">EST. FOR THE LOVE OF CARS</span>
+    </section>
+
+    <div class="service-strip wrap" aria-label="Cztery główne usługi">
+      <a href="#services" class="strip-item">
+        <span class="strip-symbol" aria-hidden="true">◈</span><span><strong>DETAILING NADWOZIA</strong><small>Głęboki blask lakieru</small></span>
+      </a>
+      <a href="#services" class="strip-item">
+        <span class="strip-symbol" aria-hidden="true">▱</span><span><strong>DETAILING WNĘTRZA</strong><small>Czystość w każdym calu</small></span>
+      </a>
+      <a href="#services" class="strip-item">
+        <span class="strip-symbol" aria-hidden="true">⬡</span><span><strong>POWŁOKI OCHRONNE</strong><small>Ochrona na dłużej</small></span>
+      </a>
+      <a href="#services" class="strip-item">
+        <span class="strip-symbol" aria-hidden="true">◎</span><span><strong>KOŁA I OPONY</strong><small>Perfekcyjne wykończenie</small></span>
+      </a>
+    </div>
+
+    <section class="section services-section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-top reveal">
+          <div><p class="section-kicker">01 / NASZA SPECJALIZACJA</p><h2 id="services-title">USŁUGI, KTÓRE ROBIĄ <span>RÓŻNICĘ.</span></h2></div>
+          <p>Od detali wnętrza po zabezpieczenie lakieru — kompleksowa pielęgnacja w jednym miejscu.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="card-index">01</span>
+            <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 6c-5 10-17 22-17 35a17 17 0 0 0 34 0C49 28 37 16 32 6Z"/><path d="M23 43c1 6 4 9 10 10"/></svg>
+            <h3>DETAILING NADWOZIA</h3><p>Dokładne oczyszczanie, dekontaminacja i pielęgnacja lakieru, szyb oraz elementów zewnętrznych.</p><a href="#contact">ZAPYTAJ O USŁUGĘ <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">02</span>
+            <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M23 9h18c4 0 6 4 6 8v14l7 8v13H10V39l7-8V17c0-4 2-8 6-8Z"/><path d="M17 31h30M21 18h22M10 45h44M21 52v5M43 52v5"/></svg>
+            <h3>DETAILING WNĘTRZA</h3><p>Czyszczenie tapicerki, kokpitu, podsufitki i trudno dostępnych miejsc. Komfort od pierwszej chwili.</p><a href="#contact">ZAPYTAJ O USŁUGĘ <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">03</span>
+            <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 6 52 14v17c0 14-9 21-20 27C21 52 12 45 12 31V14L32 6Z"/><path d="m23 31 6 6 13-14"/></svg>
+            <h3>POWŁOKI OCHRONNE</h3><p>Zabezpieczenie powierzchni i łatwiejsza codzienna pielęgnacja. Dobór ochrony do Twojego auta.</p><a href="#contact">ZAPYTAJ O USŁUGĘ <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">04</span>
+            <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="25"/><circle cx="32" cy="32" r="15"/><circle cx="32" cy="32" r="5"/><path d="M32 17v10M32 37v10M17 32h10M37 32h10M21.4 21.4l7.1 7.1M35.5 35.5l7.1 7.1M42.6 21.4l-7.1 7.1M28.5 35.5l-7.1 7.1"/></svg>
+            <h3>PIELĘGNACJA KÓŁ</h3><p>Mycie felg, usuwanie zabrudzeń i dressing opon dla dopracowanego wyglądu samochodu.</p><a href="#contact">ZAPYTAJ O USŁUGĘ <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement-band" aria-label="Motto pracowni"><div class="wrap"><p>NIE TYLKO CZYSTOŚĆ. <span>TO PASJA DO MOTORYZACJI.</span></p><span>PRIME / DETAILING</span></div></section>
+
+    <section class="section packages-section" id="packages" aria-labelledby="packages-title">
+      <div class="wrap">
+        <div class="section-top reveal">
+          <div><p class="section-kicker">02 / WYBIERZ SWÓJ STANDARD</p><h2 id="packages-title">PAKIETY <span>DETAILINGU.</span></h2></div>
+          <p>Wybierz poziom pielęgnacji odpowiedni dla Twojego samochodu. Zakres można dopasować indywidualnie.</p>
+        </div>
+        <p class="demo-note">Ceny są przykładowe — przed publikacją ustaw własny cennik.</p>
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-meta"><span>01 / ESSENTIAL</span><span>START</span></div>
+            <h3>FRESH START</h3>
+            <p class="price-description">Odświeżenie, które widać od razu.</p>
+            <div class="price-amount"><span>od</span><strong>299</strong><span>zł</span></div>
+            <span class="price-divider"></span>
+            <ul><li>Mycie zewnętrzne premium</li><li>Czyszczenie felg i opon</li><li>Odkurzanie wnętrza</li><li>Pielęgnacja szyb</li><li>Wykończenie detali</li></ul>
+            <button class="button price-button" type="button" data-package="Fresh Start">WYBIERZ PAKIET <span aria-hidden="true">↗</span></button>
+          </article>
+          <article class="price-card featured reveal">
+            <div class="popular-tag">NAJCZĘŚCIEJ WYBIERANY</div>
+            <div class="price-meta"><span>02 / ADVANCED</span><span>PRO</span></div>
+            <h3>DEEP GLOSS</h3>
+            <p class="price-description">Dla tych, którzy oczekują więcej.</p>
+            <div class="price-amount"><span>od</span><strong>599</strong><span>zł</span></div>
+            <span class="price-divider"></span>
+            <ul><li>Wszystko z Fresh Start</li><li>Dekontaminacja lakieru</li><li>Dogłębne czyszczenie wnętrza</li><li>Pielęgnacja plastików</li><li>Podstawowe zabezpieczenie lakieru</li></ul>
+            <button class="button price-button" type="button" data-package="Deep Gloss">WYBIERZ PAKIET <span aria-hidden="true">↗</span></button>
+          </article>
+          <article class="price-card reveal">
+            <div class="price-meta"><span>03 / EXCLUSIVE</span><span>ELITE</span></div>
+            <h3>PRIME SIGNATURE</h3>
+            <p class="price-description">Kompletny rytuał dla wyjątkowych aut.</p>
+            <div class="price-amount"><span>od</span><strong>1099</strong><span>zł</span></div>
+            <span class="price-divider"></span>
+            <ul><li>Wszystko z Deep Gloss</li><li>Rozszerzona korekta lakieru*</li><li>Indywidualna ochrona lakieru</li><li>Pełne wykończenie wnętrza</li><li>Konsultacja pielęgnacyjna</li></ul>
+            <button class="button price-button" type="button" data-package="Prime Signature">WYBIERZ PAKIET <span aria-hidden="true">↗</span></button>
+          </article>
+        </div>
+        <p class="packages-footnote">* Zakres korekty i ochrony zależy od stanu samochodu i ustaleń. Pakiety i ceny mają charakter demonstracyjny.</p>
+      </div>
+    </section>
+
+    <section class="section compare-section" id="comparison" aria-labelledby="compare-title">
+      <div class="wrap compare-layout">
+        <div class="compare-copy reveal">
+          <p class="section-kicker">03 / ZOBACZ RÓŻNICĘ</p>
+          <h2 id="compare-title">KAŻDY DETAL <span>MA ZNACZENIE.</span></h2>
+          <p>Przesuń suwak, aby zobaczyć interaktywny podgląd zmiany wyglądu zdjęcia.</p>
+          <div class="compare-list"><span><b>01</b> LAKIER</span><span><b>02</b> GŁĘBIA KOLORU</span><span><b>03</b> WYKOŃCZENIE</span></div>
+          <p class="compare-disclaimer">To demonstracja efektu wizualnego na jednym zdjęciu, nie autentyczna dokumentacja usługi „przed i po”. Własne fotografie możesz dodać później.</p>
+          <a class="inline-link" href="#gallery">ZOBACZ GALERIĘ <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="compare-card reveal">
+          <div class="comparison" id="comparison-widget" style="--split:50%">
+            <img class="comparison-before" src="assets/hero.jpg" alt="Zdjęcie Porsche z przygaszonym kolorem, efekt demonstracyjny" loading="lazy">
+            <div class="comparison-after" aria-hidden="true"><img src="assets/hero.jpg" alt="" loading="lazy"></div>
+            <span class="compare-tag tag-before">PRZED — DEMO</span><span class="compare-tag tag-after">PO — DEMO</span>
+            <span class="compare-handle" aria-hidden="true"><span>↔</span></span>
+            <input id="compare-range" type="range" min="0" max="100" value="50" aria-label="Porównaj demonstracyjne zdjęcie przed i po" aria-valuetext="50 procent zdjęcia po">
+          </div>
+          <div class="compare-caption"><span>PRZESUŃ SUWAK <span aria-hidden="true">↔</span></span><span>WIZUALIZACJA / DEMO</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="section-top reveal"><div><p class="section-kicker">04 / W OBIEKTYWIE</p><h2 id="gallery-title">PIĘKNO TKWI <span>W SZCZEGÓŁACH.</span></h2></div><p>Przykładowa galeria wykorzystująca kadry z Twojego zdjęcia Porsche. Kliknij, aby powiększyć.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery-index="0" aria-label="Powiększ zdjęcie: sylwetka Porsche"><img src="assets/gallery-01.webp" alt="Czarne Porsche — sylwetka i przednie nadwozie" loading="lazy"><span class="gallery-overlay"><strong>01 / SYLWETKA</strong><span aria-hidden="true">↗</span></span></button>
+          <button class="gallery-item reveal" type="button" data-gallery-index="1" aria-label="Powiększ zdjęcie: detale lakieru"><img src="assets/gallery-02.webp" alt="Zbliżenie na reflektor i błyszczący lakier Porsche" loading="lazy"><span class="gallery-overlay"><strong>02 / LAKIER</strong><span aria-hidden="true">↗</span></span></button>
+          <button class="gallery-item reveal" type="button" data-gallery-index="2" aria-label="Powiększ zdjęcie: koło Porsche"><img src="assets/gallery-03.webp" alt="Zbliżenie na koło i oponę Porsche" loading="lazy"><span class="gallery-overlay"><strong>03 / KOŁA</strong><span aria-hidden="true">↗</span></span></button>
+          <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery-index="3" aria-label="Powiększ zdjęcie: karoseria"><img src="assets/gallery-04.webp" alt="Karoseria czarnego Porsche w świetle zachodu słońca" loading="lazy"><span class="gallery-overlay"><strong>04 / WYKOŃCZENIE</strong><span aria-hidden="true">↗</span></span></button>
+        </div>
+        <p class="gallery-note">Wszystkie cztery ujęcia pochodzą z jednego przesłanego zdjęcia. Podmień je na zdjęcia własnych realizacji.</p>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div class="about-side reveal"><span>DETAILING IS AN ART.</span><div class="about-mark" aria-hidden="true">P<span>.</span></div></div>
+        <div class="about-copy reveal"><p class="section-kicker">05 / NASZA FILOZOFIA</p><h2 id="about-title">PASJA. PRECYZJA. <span>CHARAKTER.</span></h2><p>W detailingu liczy się cierpliwość, właściwa technika i bezkompromisowa uwaga poświęcona każdemu elementowi. Takie podejście chcemy pokazać na tej stronie.</p><p>To wersja demonstracyjna — tutaj możesz wpisać prawdziwą historię swojej marki, doświadczenie zespołu i to, co wyróżnia Twoją pracownię.</p><a class="inline-link" href="#contact">POROZMAWIAJMY <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-copy reveal"><p class="section-kicker">06 / ZACZNIJ OD ROZMOWY</p><h2 id="contact-title">CZAS NA <span>NOWY BLASK.</span></h2><p>Powiedz nam, czego potrzebuje Twój samochód. Wypełnij formularz, wybierz pakiet i przygotuj zapytanie.</p>
+          <div class="contact-points"><div><span>✳</span><p><strong>INDYWIDUALNA WYCENA</strong><small>Dopasowanie usługi do stanu auta.</small></p></div><div><span>◇</span><p><strong>PROSTY PIERWSZY KROK</strong><small>Formularz zbiera informacje o zleceniu.</small></p></div></div>
+          <p class="contact-demo">Wersja demo: skonfiguruj adres e-mail lub Formspree w <code>script.js</code>, aby uruchomić rzeczywistą wysyłkę.</p>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <h3>NAPISZ DO NAS <span aria-hidden="true">↗</span></h3>
+          <p>Wszystkie pola oznaczone * są wymagane.</p>
+          <div class="form-grid">
+            <label>IMIĘ I NAZWISKO *<input type="text" name="name" autocomplete="name" placeholder="Jan Kowalski" required minlength="2"></label>
+            <label>ADRES E-MAIL *<input type="email" name="email" autocomplete="email" placeholder="jan@email.pl" required></label>
+            <label>TELEFON<input type="tel" name="phone" autocomplete="tel" placeholder="+48 000 000 000"></label>
+            <label>WYBIERZ PAKIET<select id="package-select" name="package"><option value="Nie wybrano">Wybierz pakiet</option><option value="Fresh Start">Fresh Start</option><option value="Deep Gloss">Deep Gloss</option><option value="Prime Signature">Prime Signature</option><option value="Inna usługa">Inna usługa</option></select></label>
+          </div>
+          <label>WIADOMOŚĆ *<textarea name="message" rows="5" required minlength="10" placeholder="Marka i model auta, interesująca Cię usługa, preferowany termin..."></textarea></label>
+          <label class="privacy-check"><input type="checkbox" name="privacy" required><span>Rozumiem, że moje dane zostaną użyte wyłącznie do przygotowania zapytania kontaktowego. *</span></label>
+          <button type="submit" class="button button-primary form-submit">PRZYGOTUJ ZAPYTANIE <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <div class="form-fallback" id="form-fallback" hidden><label for="form-generated">TREŚĆ ZAPYTANIA — skopiuj i wyślij po ustawieniu adresu odbiorcy</label><textarea id="form-generated" rows="8" readonly></textarea><button class="copy-button" id="copy-message" type="button">KOPIUJ WIADOMOŚĆ</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><div class="footer-main"><a class="brand" href="#home" aria-label="PRIME Detailing — na górę"><span class="brand-mark" aria-hidden="true">P<span class="brand-streak"></span></span><span class="brand-type"><strong>PRIME</strong><small>DETAILING</small></span></a><p>DETAILING DONE RIGHT.<br>Projekt demonstracyjny do portfolio.</p><a href="#top" class="footer-top">WRÓĆ NA GÓRĘ ↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> PRIME DETAILING • DEMO</span><span>MADE FOR PEOPLE WHO LOVE CARS.</span><div class="footer-social"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">IG</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">FB</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TT</a></div></div></div></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Powiększona galeria" aria-hidden="true" hidden>
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Zamknij galerię">×</button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Poprzednie zdjęcie">‹</button>
+    <figure class="lightbox-figure"><img id="lightbox-image" src="assets/gallery-01.webp" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Następne zdjęcie">›</button>
+  </div>
+</body>
+</html>
